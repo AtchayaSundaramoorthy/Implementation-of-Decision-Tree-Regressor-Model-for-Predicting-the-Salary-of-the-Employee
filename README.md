@@ -53,6 +53,7 @@ clf=DecisionTreeRegressor(criterion='gini')
 plt.figure(figsize=(20,8))
 plot_tree(dt,feature_names=x.columns,filled=True)
 plt.show()
+```
 
 ## Output:
 ![image](https://github.com/AtchayaSundaramoorthy/Implementation-of-Decision-Tree-Regressor-Model-for-Predicting-the-Salary-of-the-Employee/assets/119393516/a76702c6-0601-4f09-aa10-6fdd6a024b89)
